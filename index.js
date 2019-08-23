@@ -18,20 +18,9 @@ function sayHiToGrandma(textt) {
   if (textt.toLowerCase() === textt) {
     return "I can't hear you!";
   }
-  else {
-    return textt + "test";
-  }
-}
-function sayHiToGrandma(texttt) {
-  if (texttt.toUpperCase() === texttt) {
+  else if (texttt.toUpperCase() === texttt) {
     return "YES INDEED!";
-  }else {
-    return texttt + "test";
-  }
-}
-
-function sayHiToGrandma(text) {
-  if (text === "I love you, Grandma.") {
+  }else if (text === "I love you, Grandma.") {
     return "I love you, too."
   }
 }
